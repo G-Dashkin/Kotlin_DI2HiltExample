@@ -9,32 +9,14 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/step2"
-        android:text="Step 2"
+        android:id="@+id/exampleHilt1"
+        android:text="Hilt 1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/step3"
-        android:text="Step 3"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/step4"
-        android:text="Step 4"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/step5"
-        android:text="Step 5"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/step6"
-        android:text="Step 6"
+        android:id="@+id/exampleHilt2"
+        android:text="Hilt 2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"/>
 
