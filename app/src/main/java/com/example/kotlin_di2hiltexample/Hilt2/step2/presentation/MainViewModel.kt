@@ -1,15 +1,21 @@
-package com.example.kotlin_di2hiltexample.Hilt2.step1.domain.presentation
+package com.example.kotlin_di2hiltexample.Hilt2.step2.presentation
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.models.SaveUserNameParam
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.models.UserName
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.usecases.GetUserNameUseCase
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.usecases.SaveUserNameUseCase
+import com.example.kotlin_di2hiltexample.Hilt2.step2.domain.models.SaveUserNameParam
+import com.example.kotlin_di2hiltexample.Hilt2.step2.domain.models.UserName
+import com.example.kotlin_di2hiltexample.Hilt2.step2.domain.usecases.GetUserNameUseCase
+import com.example.kotlin_di2hiltexample.Hilt2.step2.domain.usecases.SaveUserNameUseCase
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class MainViewModel(
+// Во ВьюМоделе добавим аннотацию @HiltViewModel к классу. Это означает, что эту ВьюМодель нам придется создавать
+// Если у нас есть какие то входные параметры, то помечаем ее аннотацией @Inject с конструктором.
+// Если входных параметров нет, то в конструкторе будет пусто.
+@HiltViewModel
+class MainViewModel @Inject constructor( // Добавим аннотацию @Inject с консруктором, как в даггере.
     private val getUserNameUseCase: GetUserNameUseCase,
     private val saveUserNameUseCase: SaveUserNameUseCase
     ): ViewModel() {

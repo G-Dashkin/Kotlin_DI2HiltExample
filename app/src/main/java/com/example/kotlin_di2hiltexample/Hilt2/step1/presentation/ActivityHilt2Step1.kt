@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.ViewModelProvider
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.presentation.MainViewModel
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.presentation.MainViewModelFactory
 import com.example.kotlin_di2hiltexample.databinding.ActivityHilt2Step1Binding
 
 class ActivityHilt2Step1 : AppCompatActivity() {

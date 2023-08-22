@@ -1,5 +1,6 @@
 package com.example.kotlin_di2hiltexample.Hilt1.step2
 
+import android.util.Log
 import javax.inject.Inject
 
 // Для использования библиотеки Hilt, нужно отличать наши клиссы (созданные нами), от классов сторонних
@@ -19,10 +20,10 @@ class WiFiManager @Inject constructor(private val settings: WiFiSettings) {
 
 class WiFiSettings @Inject constructor() {
     fun openConnection(){
-        println("Connected")
+        Log.d("MyLog", "Connected")
     }
 
     fun writeBytes(){
-        println("Hello!")
+        Log.d("MyLog", "Hello!")
     }
 }

@@ -1,6 +1,6 @@
-package com.example.kotlin_di2hiltexample.Hilt2.step1.data.storage
+package com.example.kotlin_di2hiltexample.Hilt2.step2.data.storage
 
-import com.example.kotlin_di2hiltexample.Hilt2.step1.data.models.User
+import com.example.kotlin_di2hiltexample.Hilt2.step2.data.storage.models.User
 
 interface UserStorage {
 

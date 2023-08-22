@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".step2.ActivityStep2">
+    tools:context=".Hilt1.step2.ActivityStep2">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

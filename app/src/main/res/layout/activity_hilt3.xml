@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".Hilt2.HiltActivity2">
+    tools:context=".Hilt3.HiltActivity3">
 
 
     <Button
@@ -18,6 +18,12 @@
     <Button
         android:id="@+id/step2"
         android:text="Step 2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/step3"
+        android:text="Step 3"
         android:layout_width="300dp"
         android:layout_height="wrap_content"/>
 

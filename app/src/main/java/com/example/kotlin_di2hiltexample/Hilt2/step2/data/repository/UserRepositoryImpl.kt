@@ -1,10 +1,10 @@
-package com.example.kotlin_di2hiltexample.Hilt2.step1.data.repository
+package com.example.kotlin_di2hiltexample.Hilt2.step2.data.repository
 
-import com.example.kotlin_di2hiltexample.Hilt2.step1.data.models.User
-import com.example.kotlin_di2hiltexample.Hilt2.step1.data.storage.UserStorage
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.models.SaveUserNameParam
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.models.UserName
-import com.example.kotlin_di2hiltexample.Hilt2.step1.domain.repository.UserRepository
+import com.example.kotlin_di2hiltexample.Hilt2.step2.data.storage.UserStorage
+import com.example.kotlin_di2hiltexample.Hilt2.step2.data.storage.models.User
+import com.example.kotlin_di2hiltexample.Hilt2.step2.domain.models.SaveUserNameParam
+import com.example.kotlin_di2hiltexample.Hilt2.step2.domain.models.UserName
+import com.example.kotlin_di2hiltexample.Hilt2.step2.domain.repository.UserRepository
 
 class UserRepositoryImpl(private val userStorage: UserStorage) : UserRepository {
 

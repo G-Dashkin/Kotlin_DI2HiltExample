@@ -1,4 +1,4 @@
-package com.example.kotlin_di2hiltexample.Hilt2.step1.domain.presentation
+package com.example.kotlin_di2hiltexample.Hilt2.step1.presentation
 
 import android.content.Context
 import androidx.lifecycle.ViewModel

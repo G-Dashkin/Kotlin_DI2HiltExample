@@ -28,7 +28,6 @@ class ActivityStep3 : AppCompatActivity() {
         Log.d("MyLog", "ActivityStep31 instance id: $wiFiManager")
         binding = ActivityStep3Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
         setSupportActionBar(binding.toolbar)
 
         val navController = findNavController(R.id.nav_host_fragment_content_activity_step3)
